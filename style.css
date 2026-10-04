@@ -171,6 +171,16 @@ button {
   background-color: #FAFAFA;
 }
 
+.btn-pill-white:active {
+  transform: translateY(-1px) scale(0.98);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-pill-white:focus-visible {
+  outline: 3px solid #FFFFFF;
+  outline-offset: 4px;
+}
+
 .btn-pill-white i {
   font-size: 0.85rem;
   transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -329,6 +339,17 @@ button {
   width: 100%;
 }
 
+.nav-item:active {
+  color: var(--color-brand-orange);
+  opacity: 0.8;
+}
+
+.nav-item:focus-visible {
+  outline: 2px solid var(--color-brand-orange);
+  outline-offset: 6px;
+  border-radius: 2px;
+}
+
 .nav-toggle-btn {
   display: none;
   width: 44px;
@@ -471,6 +492,16 @@ button {
   transform: translateY(-2px);
 }
 
+.btn-primary-orange:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 12px -2px rgba(234, 88, 12, 0.35);
+}
+
+.btn-primary-orange:focus-visible {
+  outline: 3px solid var(--color-brand-orange);
+  outline-offset: 4px;
+}
+
 .btn-secondary-outline {
   display: inline-flex;
   align-items: center;
@@ -490,6 +521,16 @@ button {
   color: var(--color-dark-900);
   background-color: #F8FAFC;
   transform: translateY(-2px);
+}
+
+.btn-secondary-outline:active {
+  transform: translateY(1px);
+  background-color: #F1F5F9;
+}
+
+.btn-secondary-outline:focus-visible {
+  outline: 3px solid var(--color-dark-900);
+  outline-offset: 4px;
 }
 
 /* ==================== PURE CSS MOBILE DRAWER ==================== */
@@ -1584,6 +1625,16 @@ button {
 .btn-submit:hover {
   background: #C2410C;
   transform: translateY(-2px);
+}
+
+.btn-submit:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 12px -2px rgba(234, 88, 12, 0.35);
+}
+
+.btn-submit:focus-visible {
+  outline: 3px solid var(--color-brand-orange);
+  outline-offset: 4px;
 }
 
 /* ==================== FOOTER ==================== */
